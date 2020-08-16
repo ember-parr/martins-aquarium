@@ -1,0 +1,86 @@
+/* whole site styling */
+body {
+	background-color: #fbf6ef;
+	font-family: 'Poppins', sans-serif;
+}
+
+
+/* end of whole site styling */
+
+
+
+
+/* header logo styling */
+    header {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        background-color: #ead2ac;
+    }
+
+    header h1 {
+        line-height: 1em;
+        color: #2b4570;
+        text-align: center;
+        padding: 0 2em;
+        font-size: 1.5em;
+    }
+
+/* end of header logo styling */
+
+
+
+
+
+/* fish card styling */
+
+
+    #fishTank {
+        display: flex;
+        flex-wrap: nowrap;
+        margin: 1em;
+    }
+
+    .fishList{
+        flex: 3;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .fishList-card {
+        background-color: #48c1ca;
+        margin: 1em;
+        flex-basis: 25%;
+        padding: 0 1em;
+    }
+
+    
+
+    .fish-image {
+        width: 100%;
+        height: auto;
+    }
+
+
+
+
+
+/* end of fish card styling */
+
+
+
+
+/* aside styling */
+        aside {
+            flex: 1;
+            background-color: #2b4570;
+            color: #fbf6ef;
+            padding: 1em;
+        }
+/* end of aside styling */
+
+
+/* footer styling */
+
+
+/* end of footer styling */
