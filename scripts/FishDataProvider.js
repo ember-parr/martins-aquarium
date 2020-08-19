@@ -1,5 +1,6 @@
 const fishCollection = [
     {
+        image: "BlueFish.jpeg",
         givenName: "Guppi Goldenberg",
         species: "Pleebon Flounder",
         length: "2 inches",
@@ -7,6 +8,7 @@ const fishCollection = [
         harvestLocation: "Over Yonder"
     },
     {
+        image: "GreenFish.jpeg",
         givenName: "Sushi",
         species: "Male Beta",
         length: "2 inches",
@@ -14,6 +16,7 @@ const fishCollection = [
         harvestLocation: "Beaches of Walmart"
     },
     {
+        image: "NemoFish.jpeg",
         givenName: "Nemo",
         species: "Clown Fish",
         length: "3 inches minus one fin",
@@ -21,6 +24,7 @@ const fishCollection = [
         harvestLocation: "42 Wallaby Way, Sydney"
     },
     {
+        image: "NeonFish.jpeg",
         givenName: "James Pond",
         species: "Party Fish",
         length: "69cm",
@@ -28,6 +32,7 @@ const fishCollection = [
         harvestLocation: "Down Under"
     },
     {
+        image: "PinkFish.jpeg",
         givenName: "Ann Chovy",
         species: "Dancing Queen",
         length: "9 feet",
@@ -35,6 +40,7 @@ const fishCollection = [
         harvestLocation: "Sandy Castles Resort"
     },
     {
+        image: "SwayFish.jpeg",
         givenName: "Phish Styx",
         species: "Gillfunkle",
         length: "3 big toes",
@@ -42,6 +48,7 @@ const fishCollection = [
         harvestLocation: "Navy Pier"
     },
     {
+        image: "BetaFish.jpeg",
         givenName: "Phish Styx",
         species: "Gillfunkle",
         length: "3 big toes",
@@ -49,6 +56,7 @@ const fishCollection = [
         harvestLocation: "Navy Pier"
     },
     {
+        image: "JellyFish.jpeg",
         givenName: "Phish Styx",
         species: "Gillfunkle",
         length: "3 big toes",
@@ -56,13 +64,7 @@ const fishCollection = [
         harvestLocation: "Navy Pier"
     },
     {
-        givenName: "Phish Styx",
-        species: "Gillfunkle",
-        length: "3 big toes",
-        diet: "school fish",
-        harvestLocation: "Navy Pier"
-    },
-    {
+        image: "OrangeFish.jpeg",
         givenName: "Phish Styx",
         species: "Gillfunkle",
         length: "3 big toes",
