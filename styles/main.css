@@ -51,7 +51,7 @@ body {
         background-color: #48c1ca;
         margin: 1em;
         flex-basis: 25%;
-        padding: 0 1em;
+        padding: auto;
     }
 
     
@@ -59,6 +59,7 @@ body {
     .fish-image {
         width: 100%;
         height: auto;
+        padding: 0.5em;
     }
 
 
@@ -71,11 +72,23 @@ body {
 
 
 /* aside styling */
-        aside {
+        .fishTips {
             flex: 1;
             background-color: #2b4570;
             color: #fbf6ef;
             padding: 1em;
+        }
+
+        .fishTips h4 {
+            font-size: 2em;
+            padding-bottom: 0;
+            margin-bottom: 0;
+        }
+
+       .fishTips small {
+            font-size: 0.75em;
+            font-weight: 100;
+            color: lightgray;
         }
 /* end of aside styling */
 

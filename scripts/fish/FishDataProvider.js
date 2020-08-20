@@ -73,7 +73,7 @@ const fishCollection = [
     }
 ];
 
-// This is new code. Add this.
+
 export const useFish = () => {
     return fishCollection.slice()
 }
