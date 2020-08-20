@@ -49,27 +49,27 @@ const fishCollection = [
     },
     {
         image: "BetaFish.jpeg",
-        givenName: "Phish Styx",
-        species: "Gillfunkle",
-        length: "3 big toes",
-        diet: "school fish",
-        harvestLocation: "Navy Pier"
+        givenName: "Beta Boy",
+        species: "Male Beta",
+        length: "as long as a swiss roll",
+        diet: "Flakes from store clearance aisle",
+        harvestLocation: "PetSmart"
     },
     {
         image: "JellyFish.jpeg",
-        givenName: "Phish Styx",
-        species: "Gillfunkle",
-        length: "3 big toes",
-        diet: "school fish",
-        harvestLocation: "Navy Pier"
+        givenName: "Blob of Ouchie",
+        species: "Jelly Fish",
+        length: "3inches to 30feet",
+        diet: "pain & agony",
+        harvestLocation: "Laguna Beach, CA"
     },
     {
         image: "OrangeFish.jpeg",
-        givenName: "Phish Styx",
-        species: "Gillfunkle",
-        length: "3 big toes",
-        diet: "school fish",
-        harvestLocation: "Navy Pier"
+        givenName: "Orange Julius",
+        species: "Overwight Goldfish",
+        length: "Doesn't like to talk about it",
+        diet: "literally anything",
+        harvestLocation: "County Fair"
     }
 ];
 
