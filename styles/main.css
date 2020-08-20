@@ -81,6 +81,7 @@ body {
 
         .fishTips h4 {
             font-size: 2em;
+            font-weight: 700;
             padding-bottom: 0;
             margin-bottom: 0;
         }
@@ -91,6 +92,60 @@ body {
             color: lightgray;
         }
 /* end of aside styling */
+
+
+/* location card styling */
+
+
+.places {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1em;
+    padding: 0.5em;
+}
+
+.location-card {
+    padding: 1em;
+    flex-basis: 25%;
+    display: flex;
+    border: 2px solid #48c1ca;
+    margin: 1em;
+    flex-flow: row wrap;
+}
+
+.places h3 {
+    flex: 1 0 50%;
+    font-weight: 800;
+    font-size: 1.5em;
+    margin: 0;
+    padding: auto;
+}
+
+.places h2 {
+    flex: 1 0 55%;
+    margin: 0;
+    padding: 0.25em;
+    font-weight: 100;
+    font-size: 1.25em;
+    color: #2b4570;
+}
+
+
+
+
+
+
+
+
+
+/* end of location card styling */
+
+
+
+
+
+
+
 
 
 /* footer styling */

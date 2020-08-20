@@ -7,7 +7,6 @@ import { Fish } from './Fish.js';
 
 export const fishList = (fishList) => {
 
-    // Get a reference to the `<article class="content">` element
     const contentElement = document.querySelector(".fishList");
     const fishes = useFish()
 
