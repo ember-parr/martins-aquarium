@@ -3,7 +3,7 @@ const fishCollection = [
         image: "BlueFish.jpeg",
         givenName: "Guppi Goldenberg",
         species: "Pleebon Flounder",
-        length: "2 inches",
+        size: 2,
         diet: "Turtle Turds",
         harvestLocation: "Over Yonder"
     },
@@ -11,7 +11,7 @@ const fishCollection = [
         image: "GreenFish.jpeg",
         givenName: "Sushi",
         species: "Male Beta",
-        length: "2 inches",
+        size: 3,
         diet: "Flies",
         harvestLocation: "Beaches of Walmart"
     },
@@ -19,7 +19,7 @@ const fishCollection = [
         image: "NemoFish.jpeg",
         givenName: "Nemo",
         species: "Clown Fish",
-        length: "3 inches minus one fin",
+        size: 3,
         diet: "Kelp",
         harvestLocation: "42 Wallaby Way, Sydney"
     },
@@ -27,7 +27,7 @@ const fishCollection = [
         image: "NeonFish.jpeg",
         givenName: "James Pond",
         species: "Party Fish",
-        length: "69cm",
+        size: 69,
         diet: "Peanut Butter",
         harvestLocation: "Down Under"
     },
@@ -35,7 +35,7 @@ const fishCollection = [
         image: "PinkFish.jpeg",
         givenName: "Ann Chovy",
         species: "Dancing Queen",
-        length: "9 feet",
+        size: 105,
         diet: "McChickens",
         harvestLocation: "Sandy Castles Resort"
     },
@@ -43,7 +43,7 @@ const fishCollection = [
         image: "SwayFish.jpeg",
         givenName: "Phish Styx",
         species: "Gillfunkle",
-        length: "3 big toes",
+        size: 19,
         diet: "school fish",
         harvestLocation: "Navy Pier"
     },
@@ -51,7 +51,7 @@ const fishCollection = [
         image: "BetaFish.jpeg",
         givenName: "Beta Boy",
         species: "Male Beta",
-        length: "as long as a swiss roll",
+        size: 22,
         diet: "Flakes from store clearance aisle",
         harvestLocation: "PetSmart"
     },
@@ -59,7 +59,7 @@ const fishCollection = [
         image: "JellyFish.jpeg",
         givenName: "Blob of Ouchie",
         species: "Jelly Fish",
-        length: "3inches to 30feet",
+        size: 90,
         diet: "pain & agony",
         harvestLocation: "Laguna Beach, CA"
     },
@@ -67,7 +67,7 @@ const fishCollection = [
         image: "OrangeFish.jpeg",
         givenName: "Orange Julius",
         species: "Overwight Goldfish",
-        length: "Doesn't like to talk about it",
+        size: 112,
         diet: "literally anything",
         harvestLocation: "County Fair"
     }
@@ -77,3 +77,37 @@ const fishCollection = [
 export const useFish = () => {
     return fishCollection.slice()
 }
+
+//fish with a length divisable by an interval of 3
+export const makeMostHolyFish = () => {
+    //start with an empty array
+    const mostHolyFishArray = [];
+
+    // the % 3 means divide by 3 & "=== 0" means the remainder === zero
+    // theFish is a taco variable 
+    for(const theFish of fishCollection) {
+        if(theFish.size % 3 === 0){
+            mostHolyFishArray.push(theFish);
+        }
+    };
+
+    //returns the array containing only fish with a length divisable by 3
+    return mostHolyFishArray;
+}
+
+//fish with a length divisable by an interval of 5
+export const makeSoldierFish = () => {
+
+    const soldierArray = [];
+
+    for(const fishObj of fishCollection) {
+
+        if (fishObj.size % 5 === 0 && fishObj.size % 3 !== 0) {
+            soldierArray.push(fishObj);
+        }
+
+    }
+    return makeSoldierFish;
+}
+
+//add unworthy fish filter next 
