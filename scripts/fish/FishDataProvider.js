@@ -80,34 +80,33 @@ export const useFish = () => {
 
 //fish with a length divisable by an interval of 3
 export const makeMostHolyFish = () => {
-    //start with an empty array
     const mostHolyFishArray = [];
-
-    // the % 3 means divide by 3 & "=== 0" means the remainder === zero
-    // theFish is a taco variable 
     for(const theFish of fishCollection) {
         if(theFish.size % 3 === 0){
             mostHolyFishArray.push(theFish);
         }
     };
-
-    //returns the array containing only fish with a length divisable by 3
     return mostHolyFishArray;
 }
 
 //fish with a length divisable by an interval of 5
 export const makeSoldierFish = () => {
-
     const soldierArray = [];
-
     for(const fishObj of fishCollection) {
-
         if (fishObj.size % 5 === 0 && fishObj.size % 3 !== 0) {
             soldierArray.push(fishObj);
         }
-
     }
-    return makeSoldierFish;
+    return soldierArray;
 }
 
 //add unworthy fish filter next 
+export const makePeasantFish = () => {
+    const peasantArray = [];
+    for (const singleFishy of fishCollection) {
+        if (singleFishy.size % 5 !== 0 && singleFishy.size % 3 !== 0) {
+            peasantArray.push(singleFishy)
+        }
+    }
+    return peasantArray;
+}
