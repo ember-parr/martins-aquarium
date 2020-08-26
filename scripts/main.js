@@ -7,3 +7,4 @@ import { locationsList } from './locations/LocationsList.js';
 fishList();
 tipsList();
 locationsList();
+
